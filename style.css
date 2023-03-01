@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: url("obrazy/Wendigo.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+
+.menu ul li{
+    font-family: 'madjoeregular';
+    list-style: none;
+    margin: 0 20px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.logo img{
+    width: 30px;
+    margin-top: -2px;
+    margin-right: 15px;
+}
+
+.active{
+    color: #ED2C2C <!-!important->;
+}
+<!-<li><a href="#" class="singup-btn"><span>Zaloguj</span></a></li>->
+.singup-btn{
+    top: 42px;
+    right: 80px;
+    font-size: 38px;
+    position: absolute;
+    text-decoration: none;
+    color: #ED2C2C;
+    border:2px solid transparent;
+    border-radius: 20px;
+    background-image: radial-gradient(#000000,#6B0004),
+    radial-gradient(circle at top left,#000000,#5C0600);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.singup-btn span{
+    display: block;
+    padding: 4px 28px;
+}
+.banner{
+    font-family: Hoefler Text;
+    width: 80%;
+    height: 70%;
+    top: 20%;
+    left: 70px;
+    position: absolute;
+    color: #000000;
+    font-style: italic;
+    font-size: 18px;
+    
+}
+
+.app-text{
+    float: left;
+}
+.app-text h1{
+    font-family: 'gudvayneregular';
+    font-size: 66px;
+    width: 640px;
+    position: relative;
+    margin-left: 14px;
+    color: #AD1000;
+    text-shadow: 8px 10px 14px #000000;
+}
+.app-text p{
+    font-size: 17px;
+    margin: 15px 0 10px 10px;
+    line-height: 36px;
+    color: #EBEBEB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'von_halentregular';
+    src: url('czcionki/von_halent-webfont.woff2') format('woff2'),
+         url('czcionki/von_halent-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'madjoeregular';
+    src: url('czcionki/madjoe-webfont.woff2') format('woff2'),
+         url('czcionki/madjoe-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gudvayneregular';
+    src: url('czcionki/gudvayne-webfont.woff2') format('woff2'),
+         url('czcionki/gudvayne-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
