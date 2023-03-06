@@ -9,7 +9,7 @@ This is a simple static page created with HTML/CSS. A simple and quick way to le
 - CSS
 
 # My Portfolio :smiling_imp:
-### [Behance](https://www.behance.net/karolkomor1b9a) :computer:
+### [Behance](https://www.behance.net/KarolKomorowski) :computer:
 
 ![Behance Profile](behance_banner.png)
 ### [Github](https://github.com/FLaMeREVENGE) :paw_prints:
